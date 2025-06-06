@@ -1,0 +1,68 @@
+.contact {
+  background-image: url(../assets/img/Background_Contacts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 850px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  padding-top: 128px;
+}
+
+.contact span {
+  font: var(--subtitle);
+  color: var(--purple);
+  margin-bottom: 8px;
+}
+
+.contact h3 {
+  font: var(--title-md);
+  color: var(--gray-600);
+  margin-bottom: 8px;
+}
+
+.contact p {
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 68px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: var(--gray-300);
+  margin-bottom: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.contact-card:hover {
+  cursor: pointer;
+  border-color: var(--blue);
+}
+
+.contact-card img {
+  margin-left: 20px;
+  width: 28px;
+  height: 28px;
+}
+
+.contact-card p {
+  margin: 0;
+  margin-left: 12px;
+  margin-right: auto;
+}
+
+.arrow-right {
+  width: 20px !important;
+  height: 20px !important;
+  margin-right: 24px;
+}

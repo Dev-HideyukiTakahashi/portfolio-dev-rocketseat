@@ -1,0 +1,45 @@
+.services {
+  height: 480px;
+  background-color: var(--gray-100);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 120px;
+}
+
+.services span {
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+.services h1 {
+  margin-top: 8px;
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+
+.service-card {
+  border-radius: 12px;
+  border: solid 2px var(--gray-200);
+  width: 280px;
+  height: 155px;
+}
+
+.service-card img {
+  margin: 20px;
+}
+
+.text-service-card {
+  margin-left: 20px;
+}
+
+.service-card h3 {
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+
+.service-card p {
+  font: var(--text-sm);
+  color: var(--gray-500);
+}
