@@ -49,3 +49,23 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.section-header {
+  margin-top: 126px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 56px;
+
+  align-items: center;
+
+  strong {
+    font: var(--subtitle);
+    color: var(--red);
+  }
+
+  h2 {
+    font: var(--title-md);
+    color: var(--gray-100);
+  }
+}

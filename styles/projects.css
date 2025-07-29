@@ -7,26 +7,6 @@
   align-items: center;
 }
 
-.projects-header {
-  margin-top: 126px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-bottom: 56px;
-
-  align-items: center;
-
-  strong {
-    font: var(--subtitle);
-    color: var(--red);
-  }
-
-  h2 {
-    font: var(--title-md);
-    color: var(--gray-100);
-  }
-}
-
 .projects-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
